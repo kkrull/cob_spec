@@ -18,6 +18,6 @@ else
   exit 1
 fi
 
-( cd $HOME/go/src/github.com/kkrull/gohttp ; echo "building" ; go build )
+( cd $HOME/go/src/github.com/kkrull/gohttp ; echo "*** Building ***" ; go build )
 java -jar "$jar_file" -c "${page_name}?suite&format=text"
 
