@@ -6,6 +6,7 @@
 
 !3 User-Defined Variables
 !define SERVER_START_COMMAND {/Users/kkrull/go/src/github.com/kkrull/gohttp/gohttp} 
+!define SERVER_START_COMMAND_bypass {echo} 
 !define PUBLIC_DIR {/Users/kkrull/git/cob_spec/public/}
 
 !contents -R2 -g -p -f -h
